@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    gap: 10px;
+    background-color: bisque;
+}
+
+form {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: aquamarine;
+    padding: 15px;
+}
+
